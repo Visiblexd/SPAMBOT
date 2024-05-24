@@ -21,10 +21,10 @@ from datetime import datetime
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        altron = await e.reply(f"•[ 🍹AɪᴍX тум 🍹 ]•")
+        altron = await e.reply(f"•[ 🍹AɪᴍX 𝐓𝐘𝐌🍹 ]•")
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await altron.edit(f"[🍹] AɪᴍX нєʀє\n[🏓] αвє αв тєʀα куα нσgα\n\n➜ `{mp} ms`")
+        await altron.edit(f"[🍹] 𝐕𝐈𝐒𝐈𝐁𝐋𝐄 𝐗 𝐒𝐏𝐀𝐌 𝐑𝐄𝐀𝐒𝐓𝐀𝐑𝐓𝐈𝐍𝐆 𝐁𝐄𝐓𝐀 𝐊𝐀𝐇𝐀 𝐆𝐀𝐎𝐆𝐄 𝐀𝐀𝐁 \n\n➜ `{mp} ms`")
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -113,18 +113,18 @@ async def addsudo(event):
             reply_msg = await event.get_reply_message()
             target = reply_msg.sender_id
         except:
-            await ok.edit("αвє נнαт кє вααℓ υραʀ ѕє ʀєρℓу ∂є ʀαнα нαι вααρ кσ")
+            await ok.edit("𝐁𝐀𝐀𝐏 𝐒𝐄 𝐆𝐀𝐃𝐃𝐀𝐑𝐈 𝐍𝐀𝐇𝐈 𝐁𝐄𝐓𝐀 ")
             return
 
         if str(target) in sudousers:
-            await ok.edit(f"ᴛʜɪꜱ ᴜꜱᴇʀ ɪꜱ ᴀʟʀᴇᴀᴅʏ ᴀ ꜱᴜᴅᴏ ᴜꜱᴇʀ !!")
+            await ok.edit(f"𝐘𝐄 𝐓𝐎 𝐏𝐀𝐇𝐋𝐄 𝐒𝐄 𝐇𝐄 𝐁𝐄𝐓𝐀 𝐇𝐀𝐈 𝐕𝐈𝐒𝐈𝐁𝐋𝐄 𝐊𝐀 !!")
         else:
             if len(sudousers) > 0:
                 newsudo = f"{sudousers} {target}"
             else:
                 newsudo = f"{target}"
-            await ok.edit(f"» σує нσує мєʀα ᴄυтє вαᴄннα\n:⧽ `{target}`\n:⧽ `ωєℓᴄσмє тσ AɪᴍX ѕραм`")
+            await ok.edit(f"» σує нσує мєʀα ᴄυтє вαᴄннα\n:⧽ `{target}`\n:⧽ `𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐕𝐈𝐒𝐈𝐁𝐋𝐄 𝐗 𝐒𝐏𝐀𝐌 🥵📳`")
             heroku_var["SUDO_USERS"] = newsudo    
     
     elif event.sender_id in SUDO_USERS:
-        await event.reply("» ꜱᴏʀʀʏ, ᴏɴʟʏ ᴏᴡɴᴇʀ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ.")
+        await event.reply("» 𝐒𝐎𝐑𝐑𝐘 𝐎𝐍𝐋𝐘 𝐕𝐈𝐒𝐈𝐕𝐋𝐄 𝐏𝐀𝐏𝐀 𝐇𝐀𝐕𝐄 𝐏𝐀𝐑𝐌𝐈𝐒𝐒𝐈𝐎𝐍 𝐓𝐎 𝐀𝐃𝐃 𝐍𝐄𝐖 𝐀𝐃𝐌𝐈𝐍.")
