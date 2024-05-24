@@ -60,7 +60,7 @@ extra_msg = f"""
   2) {hl}leave : Type in the Group bot will auto leave that group
 
 
-**© @AimmXD**
+**© @Visible_XD**
 """
 
                  
@@ -199,4 +199,4 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
     else:
-        await event.answer("Mᴇʀᴇ Oᴡɴᴇʀ  Kᴏ Mᴇssᴀɢᴇ Kᴀʀ Sᴜᴅᴏ Mɪʟ Jᴀʏᴇɢᴀ..  @AimmXD  !", cache_time=0, alert=True)
+        await event.answer("Mᴇʀᴇ 𝐨𝐰𝐧𝐞𝐫  Kᴏ Mᴇssᴀɢᴇ Kᴀʀ Sᴜᴅᴏ Mɪʟ Jᴀʏᴇɢᴀ..  @Visible_XD  !", cache_time=0, alert=True)
