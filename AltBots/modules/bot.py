@@ -127,4 +127,4 @@ async def addsudo(event):
             heroku_var["SUDO_USERS"] = newsudo    
     
     elif event.sender_id in SUDO_USERS:
-        await event.reply("» 𝐒𝐎𝐑𝐑𝐘 𝐎𝐍𝐋𝐘 𝐕𝐈𝐒𝐈𝐕𝐋𝐄 𝐏𝐀𝐏𝐀 𝐇𝐀𝐕𝐄 𝐏𝐀𝐑𝐌𝐈𝐒𝐒𝐈𝐎𝐍 𝐓𝐎 𝐀𝐃𝐃 𝐍𝐄𝐖 𝐀𝐃𝐌𝐈𝐍.")
+        await event.reply("» 𝐒𝐎𝐑𝐑𝐘 𝐎𝐍𝐋𝐘 𝐕𝐈𝐒𝐈𝐁𝐋𝐄 𝐏𝐀𝐏𝐀 𝐇𝐀𝐕𝐄 𝐏𝐀𝐑𝐌𝐈𝐒𝐒𝐈𝐎𝐍 𝐓𝐎 𝐀𝐃𝐃 𝐍𝐄𝐖 𝐀𝐃𝐌𝐈𝐍.")
