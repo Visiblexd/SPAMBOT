@@ -42,7 +42,7 @@ async def logs(legend):
         fetch = await legend.reply(f"__Fetching Logs...__")
     
         with open("AltLogs.txt", "w") as logfile:
-            logfile.write("⚡ SPAMBOT ⚡ [ Bot Logs ]\n\n" + logs)
+            logfile.write("⚡ 𝐕𝐈𝐒𝐈𝐁𝐋𝐄 𝐗 𝐒𝐏𝐀𝐌 ⚡ [ Bot Logs ]\n\n" + logs)
 
         end = datetime.now()
         ms = (end-start).seconds
@@ -55,4 +55,4 @@ async def logs(legend):
             await fetch.edit(f"An Exception Occured!\n\n**ERROR:** {str(e)}")
 
     elif legend.sender_id in SUDO_USERS:
-        await legend.reply("» ꜱᴏʀʀʏ, ᴏɴʟʏ ᴏᴡɴᴇʀ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ.")
+        await legend.reply("» 𝐒𝐎𝐑𝐑𝐘,𝐎𝐍𝐋𝐘 𝐕𝐈𝐒𝐈𝐁𝐋𝐄 𝐏𝐀𝐏𝐀 𝐇𝐀𝐕𝐄 𝐏𝐄𝐑𝐌𝐈𝐒𝐒𝐈𝐎𝐍 𝐓𝐎 𝐀𝐃𝐃 𝐍𝐄𝐖 𝐒𝐔𝐃𝐎 𝐔𝐒𝐄𝐑.")
