@@ -8,7 +8,7 @@
         "PythonX",
         "SpamBots"
     ],
-    "repository": "https://github.com/AimmXD/SPAMBOT",
+    "repository": "https://github.com/Visiblexd/SPAMBOT",
     "env": {
       "BOT_TOKEN": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
@@ -72,7 +72,7 @@
       },
       "OWNER_ID": {
         "description": "Owner Id",
-        "value": "6348268237",
+        "value": "7048922897",
         "required": true
       },
       "HEROKU_API_KEY": {
