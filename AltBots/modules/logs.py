@@ -55,4 +55,4 @@ async def logs(legend):
             await fetch.edit(f"An Exception Occured!\n\n**ERROR:** {str(e)}")
 
     elif legend.sender_id in SUDO_USERS:
-        await legend.reply("» 𝐒𝐎𝐑𝐑𝐘,𝐎𝐍𝐋𝐘 𝐕𝐈𝐒𝐈𝐁𝐋𝐄 𝐏𝐀𝐏𝐀 𝐇𝐀𝐕𝐄 𝐏𝐄𝐑𝐌𝐈𝐒𝐒𝐈𝐎𝐍 𝐓𝐎 𝐀𝐃𝐃 𝐍𝐄𝐖 𝐒𝐔𝐃𝐎 𝐔𝐒𝐄𝐑.")
+        await legend.reply("» 𝐒𝐎𝐑𝐑𝐘,𝐎𝐍𝐋𝐘 𝐕𝐈𝐒𝐈𝐁𝐋𝐄 𝐏𝐀𝐏𝐀 𝐇𝐀𝐒 𝐏𝐄𝐑𝐌𝐈𝐒𝐒𝐈𝐎𝐍 𝐓𝐎 𝐀𝐃𝐃 𝐍𝐄𝐖 𝐒𝐔𝐃𝐎 𝐔𝐒𝐄𝐑.")
