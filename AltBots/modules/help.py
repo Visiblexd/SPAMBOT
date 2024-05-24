@@ -3,7 +3,7 @@ from telethon import events, Button
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDLR as hl
 
 
-HELP_STRING = f"★ 𝗦𝗣𝗔𝗠𝗕𝗢𝗧 𝗛𝗘𝗟𝗣 𝗠𝗘𝗡𝗨 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @AimmXD**"
+HELP_STRING = f"★ 𝗦𝗣𝗔𝗠𝗕𝗢𝗧 𝗛𝗘𝗟𝗣 𝗠𝗘𝗡𝗨 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @Visible_XD**"
 
 HELP_BUTTON = [
     [
@@ -15,7 +15,7 @@ HELP_BUTTON = [
     ],
     [
       Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/AimXbots"),
-      Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/AimXsupport")
+      Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/visible_spam_hub")
     ]
   ]
 
@@ -92,7 +92,7 @@ raid_msg = f"""
   2) {hl}craid <count> <reply to user>
 
 
-**© @AimmXD**
+**© @Visible_XD**
 """
 
 spam_msg = f"""
@@ -109,7 +109,7 @@ spam_msg = f"""
   1) {hl}hang <counter>
 
 
-** © @AimmXD**
+** © @Visible_XD**
 """                     
            
            
@@ -142,7 +142,7 @@ async def helpback(event):
             ]
           )
     else:
-        await event.answer("Mᴇʀᴇ Oᴡɴᴇʀ  Kᴏ Mᴇssᴀɢᴇ Kᴀʀ Sᴜᴅᴏ Mɪʟ Jᴀʏᴇɢᴀ..  @AimmXD  !", cache_time=0, alert=True)
+        await event.answer("Mᴇʀᴇ Oᴡɴᴇʀ  Kᴏ Mᴇssᴀɢᴇ Kᴀʀ Sᴜᴅᴏ Mɪʟ Jᴀʏᴇɢᴀ..  @Visible_XD  !", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -161,7 +161,7 @@ async def help_spam(event):
               buttons=[[Button.inline("< Back", data="help_back"),],],
               ) 
     else:
-        await event.answer("Mᴇʀᴇ Oᴡɴᴇʀ  Kᴏ Mᴇssᴀɢᴇ Kᴀʀ Sᴜᴅᴏ Mɪʟ Jᴀʏᴇɢᴀ..  @AimmXD  !", cache_time=0, alert=True)
+        await event.answer("Mᴇʀᴇ Oᴡɴᴇʀ  Kᴏ Mᴇssᴀɢᴇ Kᴀʀ Sᴜᴅᴏ Mɪʟ Jᴀʏᴇɢᴀ..  @Visible_XD  !", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -180,7 +180,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
           )
     else:
-        await event.answer("Mᴇʀᴇ Oᴡɴᴇʀ  Kᴏ Mᴇssᴀɢᴇ Kᴀʀ Sᴜᴅᴏ Mɪʟ Jᴀʏᴇɢᴀ..  @AimmXD  !", cache_time=0, alert=True)
+        await event.answer("Mᴇʀᴇ Oᴡɴᴇʀ  Kᴏ Mᴇssᴀɢᴇ Kᴀʀ Sᴜᴅᴏ Mɪʟ Jᴀʏᴇɢᴀ..  @Visible_XD  !", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
